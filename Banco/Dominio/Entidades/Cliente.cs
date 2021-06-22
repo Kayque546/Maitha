@@ -10,6 +10,6 @@ namespace Dominio.Entidades
         public string nome { get; set; }
         public string email{ get; set; }
         public int CPFCNPJ { get; set; }
-        public virtual List<Contato> Contatos  { get; set; }
+        public virtual List<Contato> Contatos  { get; set; };
     }
 }
