@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dominio.Entidades
 {
-    class Conta
+    public class Conta
     {
         public int Id { get; set; }
         public int ClienteId { get; set; }
