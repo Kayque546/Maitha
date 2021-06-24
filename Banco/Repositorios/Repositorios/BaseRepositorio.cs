@@ -49,5 +49,10 @@ namespace Repositorios.Repositorios
         { 
             BancoContexto.Dispose(); 
         }
+
+        public IEnumerable<TEntity> obterTodos()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Dominio.Entidades
 {
-    public class Cliente
+    public class Cliente : Base
     {
-        public int Id { get; set; }
+
         public string Nome { get; set; }
         public string Email{ get; set; }
         public int CPFCNPJ { get; set; }
