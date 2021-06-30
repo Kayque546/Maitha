@@ -12,6 +12,6 @@ namespace Dominio.Entidades
         public virtual Cliente Cliente  { get; set; }
         public string Tipo { get; set; }
         public int NRconta { get; set; }
-        public decimal Saldo { get; set; }
+        public decimal Saldos { get; set; }
     }
 }

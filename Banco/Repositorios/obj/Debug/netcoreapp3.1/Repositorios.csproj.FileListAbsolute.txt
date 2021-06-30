@@ -1,13 +1,13 @@
-C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\bin\Debug\netcoreapp3.1\Dominio.dll
-C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.csprojAssemblyReference.cache
-C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.AssemblyInfoInputs.cache
-C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.AssemblyInfo.cs
 C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\bin\Debug\netcoreapp3.1\Repositorios.deps.json
 C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\bin\Debug\netcoreapp3.1\Repositorios.runtimeconfig.json
 C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\bin\Debug\netcoreapp3.1\Repositorios.runtimeconfig.dev.json
 C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\bin\Debug\netcoreapp3.1\Repositorios.dll
 C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\bin\Debug\netcoreapp3.1\Repositorios.pdb
+C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\bin\Debug\netcoreapp3.1\Dominio.dll
 C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.csprojAssemblyReference.cache
+C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.AssemblyInfoInputs.cache
+C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.AssemblyInfo.cs
 C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.csproj.CoreCompileInputs.cache
 C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.csproj.CopyComplete
 C:\Users\kayque\source\repos\Maitha\Banco\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.dll
