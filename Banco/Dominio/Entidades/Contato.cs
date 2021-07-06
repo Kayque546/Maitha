@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace Dominio.Entidades
 {
@@ -8,8 +9,9 @@ namespace Dominio.Entidades
     {
      
         public int ClienteId { get; set; }
-        public virtual Cliente cliente { get; set; }
         public string TipoContato{ get; set; }
         public string Telefone { get; set; }
+        [JsonIgnore]
+        public virtual Cliente cliente { get; set; }
     }
 }

@@ -8,7 +8,7 @@ namespace Dominio.Interfaces
     {
         void Adicionar(TEntity entity);
         TEntity ObterPorId(int Id);
-        IEnumerable<TEntity> obterTodos();
+        IEnumerable<TEntity> ObterTodos();
         void Atualizar(TEntity entity);
         void Remover(TEntity entity);
 

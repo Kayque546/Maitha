@@ -10,7 +10,6 @@ namespace Repositorios.Repositorios
     public class BaseRepositorio<TEntity> : IBaseRepositorio<TEntity> where TEntity : class
     {
         protected readonly BancoContexto BancoContexto;
-
         public BaseRepositorio(BancoContexto bancoContexto)
         {
             BancoContexto = bancoContexto;
@@ -21,38 +20,31 @@ namespace Repositorios.Repositorios
             return BancoContexto.Set<TEntity>().Find(id);
         }
 
-        public IEnumerable<TEntity> ObterTodos() 
+        public IEnumerable<TEntity> ObterTodos()
         {
             return BancoContexto.Set<TEntity>().ToList();
         }
 
-
         public void Adicionar(TEntity entity)
         {
             BancoContexto.Set<TEntity>().Add(entity);
-            BancoContexto.SaveChangesAsync();
+            BancoContexto.SaveChanges();
         }
-
-        public void Atualizar (TEntity entity)
+        public void Atualizar(TEntity entity)
         {
             BancoContexto.Set<TEntity>().Update(entity);
-            BancoContexto.SaveChangesAsync();
+            BancoContexto.SaveChanges();
         }
 
         public void Remover(TEntity entity)
         {
             BancoContexto.Remove(entity);
-            BancoContexto.SaveChangesAsync();
+            BancoContexto.SaveChanges();
         }
 
-        public void Dispose () 
-        { 
-            BancoContexto.Dispose(); 
-        }
-
-        public IEnumerable<TEntity> obterTodos()
+        public void Dispose()
         {
-            throw new NotImplementedException();
+            BancoContexto.Dispose();
         }
     }
 }

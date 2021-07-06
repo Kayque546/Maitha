@@ -6,3 +6,4 @@ C:\Users\kayque\source\repos\Maitha\Banco\Dominio\obj\Debug\netcoreapp3.1\Domini
 C:\Users\kayque\source\repos\Maitha\Banco\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\kayque\source\repos\Maitha\Banco\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 C:\Users\kayque\source\repos\Maitha\Banco\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\kayque\source\repos\Maitha\Banco\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache

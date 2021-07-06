@@ -65,3 +65,8 @@ C:\Users\kayque\source\repos\Maitha\Banco\BancoApi\obj\Debug\netcoreapp3.1\Banco
 C:\Users\kayque\source\repos\Maitha\Banco\BancoApi\obj\Debug\netcoreapp3.1\BancoApi.dll
 C:\Users\kayque\source\repos\Maitha\Banco\BancoApi\obj\Debug\netcoreapp3.1\BancoApi.pdb
 C:\Users\kayque\source\repos\Maitha\Banco\BancoApi\obj\Debug\netcoreapp3.1\BancoApi.genruntimeconfig.cache
+C:\Users\kayque\source\repos\Maitha\Banco\BancoApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\kayque\source\repos\Maitha\Banco\BancoApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kayque\source\repos\Maitha\Banco\BancoApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kayque\source\repos\Maitha\Banco\BancoApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kayque\source\repos\Maitha\Banco\BancoApi\obj\Debug\netcoreapp3.1\BancoApi.MvcApplicationPartsAssemblyInfo.cs
