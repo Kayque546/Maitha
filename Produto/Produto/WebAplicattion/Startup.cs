@@ -10,24 +10,51 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Repositorio.Contexto;
+using Microsoft.EntityFrameworkCore;
+using Repositorio;
+using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Rewrite;
+using Dominio.Interfaces;
 
-namespace WebAplicattion
+namespace ApiProduto
 {
     public class Startup
-    {
+    { 
+
+        public IConfiguration Configuration { get; private set; }
+    
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
-
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-        }
 
+            services.AddDbContext<BancoContexto>(options =>
+               options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Api Produto",
+                    Version = "v1",
+                    Description = ".NET 01 API PRODUTO",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Kayque"
+                    }
+                });
+            });
+
+        }
+       
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -35,6 +62,11 @@ namespace WebAplicattion
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", ".NET 01 API PRODUTO")
+            );
 
             app.UseHttpsRedirection();
 
@@ -46,6 +78,9 @@ namespace WebAplicattion
             {
                 endpoints.MapControllers();
             });
+
+            var option = new RewriteOptions();
+            option.AddRedirect("^$", "swagger");
         }
     }
 }

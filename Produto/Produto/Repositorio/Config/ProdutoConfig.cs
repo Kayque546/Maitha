@@ -12,8 +12,10 @@ namespace Repositorio.Config
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
             builder.HasKey(c => c.Id);
-            builder.Property(c => c.Nome);
-            builder.Property(c => c.CodigDeBarras);
+            builder.Property(c => c.Nome).IsRequired();
+            builder.Property(c => c.CodigDeBarras).IsRequired();
+
+            
 
         } 
     }
